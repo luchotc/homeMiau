@@ -1,5 +1,6 @@
-angular.module('miAuto')
+angular.module("home", [])
 
+angular.module("home")
 .controller("homeController", function() {
 
 
