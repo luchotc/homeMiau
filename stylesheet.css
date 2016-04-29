@@ -1,26 +1,6 @@
 body { 
-  background-color: white; 
- 
+background: rgb(228,238,253);
 }
-
-.logo-miAuto
-{
- padding-right: 50px !important;
-}
-
-/*MOMENTANEO*/
-
-.logo{
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  float:left;
-  padding: 20px;
-
-}
-
-
 
 .wrapper {
   min-height: 100% !important;
@@ -32,7 +12,7 @@ body {
 div.nav-back
 {
   width: 100%;
-  background-color: rgb(40,40,40);
+  background-color: rgb(0,0,0);
   position: absolute;
   top: 0;
   height: 60px;
@@ -54,6 +34,13 @@ div.nav-back
 }
 
 
+.logo-miAuto{
+	margin-right: 30px;
+	height: 40px;
+	width: auto;
+	float:left;
+	margin-top: 6px;
+}
 ul.navbar {
 
   z-index: 30;
@@ -93,14 +80,14 @@ li.nav-gral a {
 
 li.nav-gral a:hover {
   background-color: #111;
-  color: rgb(174, 255, 178);
+  color: rgb(172,202,243);
   text-decoration: none;
 }
 
 
 li a.active
 {
-  color: rgb(114, 195, 118) ;
+  color: rgb(94,139,205);
   text-decoration: none;
 }
 
@@ -130,6 +117,7 @@ text-decoration: none;
 
 
 .header-section{
+
   height: 500px;
   margin: 0 20px;
 }
@@ -184,8 +172,9 @@ display: inline-block;
 }
 
 .header-bottom-line{
-  margin-top: -25px;
-  border:1px solid black;
+  margin-top: -26px;
+  border-bottom: 0.01em solid rgb(200,200,200) ;
+  width: 100%;
 }
 
 .bottom-footer{
@@ -206,14 +195,13 @@ display: inline-block;
   font-size: 13px;
 }
 
-.bottom-footer-links:hover{
+.footer-links:hover{
   text-decoration: none;
 }
 
 
 .footer {
   border-top: 0.01em solid rgb(200,200,200) ;
-  left:10px;
   position:relative;
   bottom:0;
   height: 150px;
@@ -224,9 +212,38 @@ display: inline-block;
   
 }
 
+.top-footer-title {
+  
+}
+
+.top-footer-list{
+  list-style-type: none;
+  text-align: left;
+}
+
+.data-section-wrapper{
+  padding-left: 110px;
+  padding-right: 20px;
+  /*border-bottom:  0.01em solid rgb(200,200,200) ;*/
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+
+
+.data-section-title{
+  width: 360px;
+}
+
+
+.data-section-image{
+  width: 300px;
+  margin-left: 15px;
+}
+
+
+
 /*
-
-
 
 #logo-sushisan{
 
